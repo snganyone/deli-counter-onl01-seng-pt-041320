@@ -15,4 +15,5 @@ def take_a_number(katz_deli, name)
   arr = []
   katz_deli.each_with_index do |i|
     arr << "#{i}"
+  end
 end

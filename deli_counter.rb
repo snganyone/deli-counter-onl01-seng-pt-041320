@@ -14,6 +14,6 @@ end
 def take_a_number(katz_deli, name)
   arr = []
   katz_deli.each do |i, person|
-    arr << "#{name}"
+    arr << "#{person}"
   end
 end

@@ -13,7 +13,6 @@ end
 
 def take_a_number(katz_deli, name)
   arr = []
-  katz_deli.each_with_index do |i, person|
-    puts "Hello #{i}"
+  katz_deli.each_with_index{|val, idx| puts "Welcome, #{val}. You are number #{idx} in line."}
   end
 end

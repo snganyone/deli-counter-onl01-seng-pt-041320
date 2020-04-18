@@ -13,6 +13,5 @@ end
 
 def take_a_number(katz_deli, name)
   arr = []
-  katz_deli.each_with_index{|i| i << "{name}"}
-   puts "Welcome, #{name}. You are number 1 in line."
+  katz_deli.each_with_index{|i| arr << i}
 end

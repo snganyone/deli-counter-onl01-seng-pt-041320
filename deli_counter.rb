@@ -13,7 +13,7 @@ end
 
 def take_a_number(katz_deli, name)
   arr = []
-  katz_deli.each do |i, person|
+  katz_deli.each_with_index do |i, person|
     arr << "#{person}"
   end
 end
